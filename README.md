@@ -6,12 +6,12 @@
 
 ## 🎮 Recursos do Jogo
 
-- ✅ Plataforma 2D com movimentação fluida;
-- ✅ Animações completas: andar, correr, pular e atacar;
-- ✅ Combates com sabres de luz e tiros;
-- ✅ Sons e trilhas fiéis ao universo Star Wars;
-- ✅ Múltiplos personagens jogáveis;
-- ✅ Telas interativas de menu, seleção de personagem e fases espaciais.
+- Plataforma 2D com movimentação fluida;
+- Animações completas: andar, correr, pular e atacar;
+- Combates com sabres de luz e tiros;
+- Sons e trilhas fiéis ao universo Star Wars;
+- Múltiplos personagens jogáveis;
+- Telas interativas de menu, seleção de personagem e fases espaciais.
 
 ---
 
