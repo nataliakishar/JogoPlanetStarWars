@@ -1,95 +1,58 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Planet Star Wars</title>
-    <style>
-        body {
-            background-color: #0d0d0d;
-            color: #f2f2f2;
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #00ccff;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            box-shadow: 0 0 10px #000;
-        }
-        code {
-            background-color: #1a1a1a;
-            color: #00ff99;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #1a1a1a;
-            padding: 12px;
-            border-radius: 6px;
-            overflow-x: auto;
-        }
-    </style>
-</head>
-<body>
+# 🌌 Planet Star Wars
 
-    <h1>🌌 Planet Star Wars</h1>
+**Planet Star Wars** é um jogo de plataforma 2D desenvolvido em **Python** com **Pygame**, inspirado no universo de Star Wars. O jogador poderá controlar personagens icônicos como **Rey**, **Darth Sidious** e **Boba Fett**, enfrentando batalhas épicas em ambientes clássicos da saga.
 
-    <p><strong>Planet Star Wars</strong> é um jogo de plataforma 2D desenvolvido em <strong>Python</strong> com <strong>Pygame</strong>, inspirado no universo de Star Wars. O jogador poderá controlar personagens icônicos como <em>Rey</em>, <em>Darth Sidious</em> e <em>Boba Fett</em>, enfrentando batalhas épicas em ambientes clássicos da saga.</p>
+---
 
-    <hr>
+## 🎮 Recursos do Jogo
 
-    <h2>🎮 Recursos do Jogo</h2>
-    <ul>
-        <li>Plataforma 2D com movimentação fluida;</li>
-        <li>Animações completas: andar, correr, pular e atacar;</li>
-        <li>Combates com sabres de luz e tiros;</li>
-        <li>Sons e trilhas fiéis ao universo Star Wars;</li>
-        <li>Múltiplos personagens jogáveis;</li>
-        <li>Telas interativas de menu, seleção de personagem e fases espaciais.</li>
-    </ul>
+- ✅ Plataforma 2D com movimentação fluida;
+- ✅ Animações completas: andar, correr, pular e atacar;
+- ✅ Combates com sabres de luz e tiros;
+- ✅ Sons e trilhas fiéis ao universo Star Wars;
+- ✅ Múltiplos personagens jogáveis;
+- ✅ Telas interativas de menu, seleção de personagem e fases espaciais.
 
-    <hr>
+---
 
-    <h2>🖼️ Imagens do Jogo</h2>
+## 🖼️ Imagens do Jogo
 
-    <h3>1. Entrada e Menu Inicial</h3>
-    <img src="readme/1. Entrada, start, musica off e sair.png" alt="Menu Inicial">
+1. **Entrada e Menu Inicial**  
+   ![Entrada](readme/1. Entrada, start, musica off e sair.png)
+   <img width="968" height="540" alt="1  Entrada, start, musca off e sair" src="https://github.com/user-attachments/assets/31121d65-18fd-4aac-969c-f00cf085c713" />
 
-    <h3>2. Seleção de Batalha</h3>
-    <img src="readme/2. Seleção batalha.png" alt="Seleção de Batalha">
 
-    <h3>3. Seleção de Personagem</h3>
-    <img src="readme/3. Seleção personagem.png" alt="Seleção de Personagem">
+3. **Seleção de Batalha**  
+   ![Seleção Batalha](readme/2. Seleção batalha.png)
+   <img width="968" height="540" alt="2  Seleção batalha" src="https://github.com/user-attachments/assets/25dee577-837f-4062-9bc9-fee52f690560" />
 
-    <h3>4. Fase da Nave</h3>
-    <img src="readme/4. Jogo Nave.png" alt="Jogo Nave">
 
-    <h3>5. Batalha entre Personagens</h3>
-    <img src="readme/5. Jogo batalha.png" alt="Jogo Batalha">
+5. **Seleção de Personagem**  
+   ![Seleção Personagem](readme/3. Seleção personagem.png)
+   <img width="957" height="533" alt="3  Seleção personagem" src="https://github.com/user-attachments/assets/44de32ae-1d06-42e2-b849-191a0bac9250" />
 
-    <hr>
 
-    <h2>▶️ Como Jogar</h2>
-    <ol>
-        <li>Instale o Python (recomenda-se versão 3.8+).</li>
-        <li>Instale o Pygame:
-            <pre><code>pip install pygame</code></pre>
-        </li>
-        <li>Execute o jogo com:
-            <pre><code>python main.py</code></pre>
-        </li>
-    </ol>
+7. **Fase da Nave**  
+   ![Jogo Nave](readme/4. Jogo Nave.png)
+   <img width="960" height="537" alt="4  Jogo Nave" src="https://github.com/user-attachments/assets/049a2958-a3b3-4638-947d-f8292b216a70" />
 
-    <hr>
 
-    <h2>📁 Estrutura do Projeto</h2>
-    <pre><code>PlanetStarWars/
+9. **Batalha entre Personagens**  
+   ![Jogo Batalha](readme/5. Jogo batalha.png)
+   <img width="959" height="532" alt="5  Jogo batalha" src="https://github.com/user-attachments/assets/70c52304-1377-441d-bb21-f123633eb55e" />
+
+
+---
+
+## ▶️ Como Jogar
+
+1. Instale o Python (recomenda-se versão 3.8+).
+2. Instale o Pygame:
+   ```bash
+   pip install pygame
+Execute o jogo com:
+python main.py
+PlanetStarWars/
 ├── assets/
 │   ├── personagens/
 │   ├── sons/
@@ -103,24 +66,18 @@
 ├── main.py
 ├── README.md
 └── requirements.txt
-</code></pre>
 
-    <hr>
+Funcionalidades atuais e futuras:
 
-    <h2>Funcionalidades </h2>
-    <ul>
-        <li>Chefes com inteligência artificial;</li>
-        <li>Fases progressivas com níveis de dificuldade;</li>
-        <li>Sistema de pontuação e vidas;</li>
-        <li>Menu de configurações personalizadas.</li>
-    </ul>
+1.1 Chefes com inteligência artificial;
 
-    <hr>
+1.2 Fases progressivas com níveis de dificuldade;
 
-    <h2>👩‍💻 Desenvolvido por</h2>
-    <p><strong>Natália</strong> • Jogo desenvolvido em Python com amor por Star Wars.</p>
+1.3 Sistema de pontuação e vidas;
 
-    <p><em>Que a Força esteja com você.</em></p>
+1.4 Menu de configurações personalizadas.
 
-</body>
-</html>
+👩‍💻 Desenvolvido por
+Natália: https://github.comnataliakishar) • Jogo desenvolvido em Python com amor por Star Wars.
+
+Que a Força esteja com você.
